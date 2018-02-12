@@ -1,5 +1,6 @@
 body{
 	margin: 0 auto;
+	max-width: 2000px;
 }
 header{
 	position: absolute;
@@ -141,7 +142,7 @@ ul li a{
 #Line .blueLine .mini5{
 
 	border-left: 0.5px solid white;
-	width: 220px;
+	width: 15%;
 }
 #Line .blueLine .mini5 p{
 	text-align: center;
