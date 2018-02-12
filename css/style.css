@@ -1,0 +1,284 @@
+body{
+	margin: 0 auto;
+}
+header{
+	position: absolute;
+	left:150px;
+	
+}
+header h3{
+	color: white;
+	font-size: 25px;
+
+
+	}
+#firstSection{
+	background: url(../img/picture.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100vh;
+	clear:both;
+	
+}
+
+
+nav{
+	padding-right: 280px;
+	margin: 0;
+}
+nav ul{
+	display: flex;
+	float: right;
+	list-style: none;
+
+}
+ul li{
+	
+	padding: 15px;
+	
+}
+ul li a{
+	font-family: lucida console;
+	font-size: 18px;
+	 text-decoration: none;
+	 color: white;
+}
+.welcomeMogo h1{
+	font-family: colspace;
+	font-size:120px;
+	margin: 0;
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+.welcomeMogo h2{
+	margin-top: 100px;
+	margin-bottom: 10px;
+	font-style: italic;
+	font-size: 45px;
+}
+.welcomeMogo{
+	clear:both;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+	padding-bottom: 250px;
+	color: white;
+}
+.welcomeMogo button{
+	margin-top: 50px;
+	border: solid white;
+    border-radius: 4px;
+    padding:10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color:white;
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+}
+#forUs h6{
+	font-size: 30px;
+  font-family: brush script mt;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  color: rgb(51, 51, 51);
+
+}
+#forUs h2{
+	font-size: 30px;
+	text-align: center;
+	font-family: Arial black;
+	color: rgb(51, 51, 51);
+	margin-top: 8px;
+
+}
+#forUs hr{
+	border:none;
+	background-color: #f38181;
+	height:3px;
+	width:65px;
+	margin-top: 30px;
+	
+}
+#forUs p{
+	text-align: center;
+	margin-top: 40px;
+	color: rgb(153, 153, 153);
+  	line-height: 1.6;
+  	font-family: corbel;
+}
+#forUs .pictures{
+	display: flex;
+	justify-content:center;
+	margin-top: 70px;
+}
+#forUs .background{
+	background: #95e1d3;
+	margin:15px;
+	position:relative;
+	
+}#forUs .background .pict1{
+	position:relative;
+	right:10px;
+	bottom: 5px;
+}
+	
+#forUs .img2{
+	margin:15px;
+	}
+#Line .blueLine{
+	background-color: #95e1d3;
+	display:flex;
+	justify-content: center;
+	margin-top: 70px;
+	height:210px;
+	
+}
+#Line .blueLine .mini5{
+
+	border-left: 0.5px solid white;
+	width: 220px;
+}
+#Line .blueLine .mini5 p{
+	text-align: center;
+	font-size: 18px;
+  	line-height: 1.6;
+	margin-top: 30px;
+  	line-height: 1.6;
+  	font-family: corbel;
+	color:#fff;
+}
+#Line .blueLine .mini5 span{
+	font-size:72px;
+	font-family: arial;
+	font-weight: bold;
+	color: #fff;
+	
+}
+#Line .blueLine .fifth{
+	border-right: 0.5px solid #fff;
+}
+
+#amazingServices h6{
+	font-size: 30px;
+  font-family: brush script mt;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  color: rgb(51, 51, 51);
+
+}
+#amazingServices h2{
+	font-size: 30px;
+	text-align: center;
+	font-family: Arial black;
+	color: rgb(51, 51, 51);
+	margin-top: 8px;
+
+}
+#amazingServices .line{
+	border:none;
+	background-color: #f38181;
+	height:3px;
+	width:65px;
+	margin-top: 30px;
+}
+
+#amazingServices .menu{
+	display: flex;
+	justify-content: center;
+	margin: 35px;
+
+
+
+}
+#amazingServices .menu img{
+	float:left;
+	margin-right: 5px;
+	margin-top: 19px;
+
+
+}
+#amazingServices .menu strong{
+	font-size: 14px;
+	font-family: Arial;
+}
+#amazingServices .menu p{
+	margin-left:50px;
+	width:70%;
+	
+  	line-height: 1.6;
+
+}
+#amazingServices .menu span{
+	color: rgb(153, 153, 153);
+}
+.secondline{
+	width:80%;
+}
+
+#forest{
+	background: url(../img/forest.png);
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+	margin-top: 70px;
+
+}
+	
+#forest h6{
+	font-size: 30px;
+  	font-family: brush script mt;
+  	text-align: center;
+  	margin-bottom: 0px;
+  	color: rgb(51, 51, 51);
+
+}
+#forest h2{
+	font-size: 30px;
+	text-align: center;
+	font-family: Arial black;
+	color: rgb(51, 51, 51);
+	margin-top: 8px;
+}
+
+#forest .line{
+	border:none;
+	background-color: #f38181;
+	height:3px;
+	width:65px;
+	margin-top: 30px;
+}
+#forest .forestDesign{
+	padding-top: 2px;
+
+}
+
+#forest .laptop{
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+.laptop .telephon{
+	position:relative;
+	right: 170px;
+	top: 90px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
